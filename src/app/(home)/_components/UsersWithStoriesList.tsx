@@ -1,9 +1,9 @@
 "use client"
 import { useState } from 'react';
 import Stories from 'react-insta-stories';
-import { fetchUserStories } from "../../../utils/fetchServerData";
-import { Story, UserData } from "../../../utils/types";
-import UserWithStories from './UserWithStories';
+import { fetchUserStories } from "src/utils/fetchServerData";
+import { Story, UserData } from "src/utils/types";
+import UserWithStories from 'src/app/(home)/_components/UserWithStories';
 
 type UsersWithStoriesProps =  {
     usersList: UserData[];

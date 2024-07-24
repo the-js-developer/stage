@@ -1,5 +1,5 @@
-import { fetchUsersList } from "../utils/fetchServerData";
-import UsersWithStoriesList from "./(home)/_components/UsersWithStoriesList";
+import { fetchUsersList } from "src/utils/fetchServerData";
+import UsersWithStoriesList from "src/app/(home)/_components/UsersWithStoriesList";
 
 export default async function Home() {
   const usersList = await fetchUsersList();

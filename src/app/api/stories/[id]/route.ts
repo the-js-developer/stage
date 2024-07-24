@@ -1,5 +1,5 @@
 import { NextResponse } from "next/server";
-import { Story } from "../../../../utils/types";
+import { Story } from "src/utils/types";
 
 export async function GET(
     request: Request,

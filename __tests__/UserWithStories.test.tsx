@@ -1,7 +1,7 @@
 import React from 'react';
 import { render, screen, fireEvent } from '@testing-library/react';
 import '@testing-library/jest-dom';
-import UserWithStories from '../src/app/(home)/_components/UserWithStories';
+import UserWithStories from 'src/app/(home)/_components/UserWithStories';
 
 // Mock the Next.js Image component
 jest.mock('next/image', () => ({

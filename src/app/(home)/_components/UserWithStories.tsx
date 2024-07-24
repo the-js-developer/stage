@@ -1,6 +1,6 @@
 "use client";
 import Image from 'next/image';
-import { UserData } from '../../../utils/types';
+import { UserData } from 'src/utils/types';
 
 type UserWithStoriesProps =  {
     user: UserData;

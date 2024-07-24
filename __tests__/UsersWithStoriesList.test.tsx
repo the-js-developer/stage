@@ -1,9 +1,9 @@
 import '@testing-library/jest-dom';
 import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { Story } from 'react-insta-stories/dist/interfaces';
-import UsersWithStoriesList from '../src/app/(home)/_components/UsersWithStoriesList';
-import { fetchUserStories } from '../src/utils/fetchServerData';
-import { UserData } from '../src/utils/types';
+import UsersWithStoriesList from 'src/app/(home)/_components/UsersWithStoriesList';
+import { fetchUserStories } from 'src/utils/fetchServerData';
+import { UserData } from 'src/utils/types';
 
 // Mock the dependencies
 jest.mock("../src/utils/fetchServerData");
