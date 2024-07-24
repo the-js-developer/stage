@@ -1,8 +1,8 @@
 import { Story, UserData } from "./types";
 
-const BASE_URL = process.env.BASE_URL
+const API_URL = process.env.API_URL
 export const fetchUsersList = async (): Promise<UserData[]> => {
-  const response = await fetch(`${BASE_URL}/api/users`, {
+  const response = await fetch(`${API_URL}/api/users`, {
     method: "GET",
   });
      if (!response.ok) {
